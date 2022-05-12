@@ -159,6 +159,7 @@
             this.Name = "frmFutureValue";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Future Value";
+            this.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.frmFutureValue_MouseDoubleClick);
             this.ResumeLayout(false);
             this.PerformLayout();
 

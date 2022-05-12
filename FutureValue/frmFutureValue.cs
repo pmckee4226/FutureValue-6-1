@@ -61,8 +61,16 @@ namespace FutureValue
             txtFutureValue.Text = "";
         }
 
+        private void frmFutureValue_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            txtMonthlyInvestment.Text = "";
+            txtInterestRate.Text = "";
+            txtYears.Text = "";
+        }
         /* Patrick McKee - OOP - May 11 - EX 6-2 */
+        /* Click the Events button in the properties window, generate DoubleClick event handler.
+         * Write the code for this handler so it sets the Text property for all four text 
+         * boxes to an empty string. Test the application. */
 
-
-    }
+}
 }
