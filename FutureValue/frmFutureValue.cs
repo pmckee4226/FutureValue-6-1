@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /* Patrick McKee                     *
- * May 05, 2022                      *
+ * May 11, 2022                      *
  * Intro to OOP                      *
- * Exercise 6-1                      *
- * Enhance Future Value App          */
+ * Exercise 6-2                      *
+ * Experiment with events            */
 
 namespace FutureValue
 {
@@ -38,7 +38,7 @@ namespace FutureValue
             txtFutureValue.Text = futureValue.ToString("c");
             txtMonthlyInvestment.Focus();
         }
-        /* Patrick McKee - OOP - May 05 - EX 6-1 */
+        /* Patrick McKee - OOP - May 11 - EX 6-2 */
 
         private static decimal CalculateFutureValue(decimal monthlyInvestment, int months, decimal monthlyInterestRate, decimal futureValue)
         {
@@ -60,5 +60,9 @@ namespace FutureValue
         {
             txtFutureValue.Text = "";
         }
+
+        /* Patrick McKee - OOP - May 11 - EX 6-2 */
+
+
     }
 }
